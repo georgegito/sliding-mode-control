@@ -87,8 +87,6 @@ e = @(q, qd) q - qd;
 e_dot = @(q_dot, qd_dot) q_dot - qd_dot;
                 
 % r
-L = [2 0; 0 5];
-C_const = 10;
 r = @(q, q_dot, qd, qd_dot, qd_ddot) ... 
       e1_max(q(1), q(2)) * abs(qd_ddot - L * e_dot(q_dot, qd_dot)) + ... 
       e2_max(q(1), q(2), q_dot(1), q_dot(2)) * abs(q_dot) + e3_max(q(1), q(2)) + C_const;

@@ -1,6 +1,10 @@
 clear;
 format shortG;
 
+%% controller parameters
+L = [5 0; 0 5];
+C_const = 0.5;
+
 %% load data
 sim1_data;
 

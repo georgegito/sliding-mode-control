@@ -31,9 +31,9 @@ We assume the following robotic arm with two rotational joints:
 
 \noindent\hspace{-2pt}
 The angles $\theta_1$ and $\theta_2$ are the rotation angles of the two joints respectively, $l_1$ and $l_2$ are the 
-lengths of the two parts of the arm and $m_1$ and $m_2$ are the masses of the two parts gathered in the center of mass of 
+lengths of the two parts of the arm and $m_1$, $m_2$ are the masses of the two parts gathered in the center of mass of 
 each part respectively. The centers of mass are considered to be placed $l_{c1}$ and $l_{c2}$ after each joint. The arm 
-holds a mass $m_l$, just as in figure 1. \\
+holds a mass $m_l$, just as in figure 1. \\\\
 If we assume 
 $$
     \begin{cases}
@@ -224,7 +224,7 @@ The following parameters are unknown, but we know their lower and upper bounds:
     $$
     are the error matrices between the estimations 
     of system matrices and the real system matrices. 
-    From (9), multiplying the two parts of the equiation by left with $H^{-1}$ and subsequently multiplying by left with $s^T$, 
+    From (8), multiplying the two parts of the equiation by left with $H^{-1}$ and subsequently multiplying by left with $s^T$, 
     we get 
     $$
         s^T \dot{s} = 
@@ -245,7 +245,7 @@ The following parameters are unknown, but we know their lower and upper bounds:
             \tilde{l_{c1}}_{max} = 0.3 \\
             \tilde{l_{c2}}_{max} = 0.25 \\
             \tilde{I_{1}}_{max} = 0.48 \\
-            \tilde{I_{2}}_{max} = 0.0.14 \\
+            \tilde{I_{2}}_{max} = 0.14 \\
             \tilde{l_{m_l}}_{max} = 2 \\
         \end{cases}
     $$
@@ -258,7 +258,7 @@ The following parameters are unknown, but we know their lower and upper bounds:
         \Rightarrow s^T \dot{s} \le 0       
     $$
     with equality only for $s=0$, so the desired condition (5) is satisfied and $s \rightarrow 0$. Thus, the system 
-    slides through $s=0$ and $q \rightarrow q_d$. The control goal has been achieved.
+    slides through $s=0$ surface and $q \rightarrow q_d$. The control goal has been achieved.
 
 \section{Simulation}
 The system simulated in \textit{MALTAB} with initial conditions 
@@ -311,7 +311,7 @@ $$
         0 & 5
     \end{bmatrix}
 $$
-We will present the system behavior through some diagrams for the selected parameters $c$ and $\Lambda$ and them we will compare 
+We will present the system behavior through some diagrams for the selected parameters $c$ and $\Lambda$ and then we will compare 
 the results with some other values of the parameters.
 \subsubsection{Results for the selected parameters}
 \begin{figure}[H]
@@ -359,7 +359,7 @@ the results with some other values of the parameters.
 \noindent\hspace{-2pt}
 \begin{itemize}
     \item In figure 2, we can see that the system rotation angles converge to the desired values fast enough without undesirable behavior (overshot, oscillation, etc).
-    \item In figure 3, we notice that the angular velocities converege to the desired values too. 
+    \item In figure 3, we notice that the angular velocities converge to the desired values too. 
     \item In figure 5, we can see the discontinuities in the control input due to saturation function (figure 6). These discontinuities disappear when $s$ gets into 
     the $|\varepsilon|$ bounds and the control input becomes more stable, tending to a constant value while $t \rightarrow \infty$. 
     \item All the signals of the system are bounded (figures 1,2, 5).
@@ -372,7 +372,7 @@ the results with some other values of the parameters.
     which is clearly validated by figure 8, as we see that $s(\dot{q}, q)$ reaches $s=0$ much faster.
     \item In figure 5 we can see the \textit{phase plane} of the system states as they converge to the equilibrium point.
     \item In figure 7 the convergence of the system to the \textit{sliding surface} is visible. In figure 8 we can see the time 
-    when the system reaches the \textit{sliding surface}. Since that time (about 0.25 seconds), the state errors start converege 
+    when the system reaches the \textit{sliding surface}. Since that time (about 0.25 seconds), the state errors start converging 
     to zero, validating our theoretical expectations, as the error slides through the surface $s=0$.
     \item Moreover, by the time the system reaches the \textit{sliding surface}, the power of the input torque (figure 5) starts 
     becoming stable.
@@ -403,11 +403,11 @@ will reach faster $s=0$ state. We provide an example for $c=10$ (larger than the
 \end{figure}
 
 \noindent\hspace{-2pt}
-Comparing figures 8 and 12, our theoretical approach is validated, as $s(\dot{q}, q)$ convereges much faster to zero 
-for the increased value of $c$. However, comparing figures 2 and 10 we see that the improvement in system state converege time 
-is not important, as parameter $c$ affect the system speed until it reaches $s=0$ surface. Since then, the converege speed is 
+Comparing figures 8 and 12, our theoretical approach is validated, as $s(\dot{q}, q)$ converges much faster to zero 
+for the increased value of $c$. However, comparing figures 2 and 10 we see that the improvement in system state convergence time 
+is not important, as parameter $c$ affect the system speed until it reaches $s=0$ surface. Since then, the convergence speed is 
 defined by some parameters that will be analyzed in the next subsection. Overall, increase of parameter $c$ only achieves to 
-reduce the time until the state error starts decreasing (figure 13 ) and increases the maximum strength of control signal (figure 11). 
+reduce the time until the state error starts decreasing (figure 13 ) and increases the maximum amplitude of control signal (figure 11). 
 As a result, it was prefered to keep the parameter at the value $c=0.5$.
 
 \subsubsection{Parameter matrix $\Lambda$ analysis}
@@ -426,7 +426,7 @@ $$
     \begin{cases} \dot{e}_1 = - \lambda_1 e_1 \\ \dot{e}_2 = - \lambda_2 e_2 \end{cases}
 $$
 so it is obvious that $\lambda_1$ and $\lambda_2$ determine the speed of the error convergence to zero, 
-once the system reaches the the \textit{sliding surface}. For $\lambda_1 = \lambda_2 = 0.5$ we present the following diagram:
+after the system reaches the \textit{sliding surface}. For $\lambda_1 = \lambda_2 = 0.5$ we present the following diagram:
 \begin{figure}[H]
     \centering
     \includegraphics[width=15cm]{fig/sim1/q05.png}
@@ -434,7 +434,7 @@ once the system reaches the the \textit{sliding surface}. For $\lambda_1 = \lamb
 \end{figure}
 
 \noindent\hspace{-2pt}
-We can notice that the converege is much slower in comparison with figure 2 ($\lambda_1 = \lambda_2 = 5$), as expected. Also, $q_2$ presents 
+We can notice that the convergence is much slower in comparison with figure 2 ($\lambda_1 = \lambda_2 = 5$), as expected. Also, $q_2$ presents 
 high overshot. We conclude that these values of parameters lead to undesirable behavior of the system. \\\\
 Now we set $\lambda_1 = \lambda_2 = 25$ and we expect faster convergence:
 \begin{figure}[H]
@@ -444,7 +444,7 @@ Now we set $\lambda_1 = \lambda_2 = 25$ and we expect faster convergence:
 \end{figure}
 
 \noindent\hspace{-2pt}
-Actually our prediction is confirmed and the converege is even faster than figure 2. However, if we look at the control input: 
+Actually our prediction is confirmed and the convergence is even faster than figure 2. However, if we look at the control input: 
 \begin{figure}[H]
     \centering
     \includegraphics[width=15cm]{fig/sim1/u25.png}
@@ -535,17 +535,17 @@ below.
 
 \begin{itemize}
     \item From figures 17, 18, 19 and 20 we can export that the system states track very satisfactorily the 
-    desired state orbits and they converege to these orbits in less than 1 second.
-    \item In figure 21, we can observe the phase plane of the system states as they converege to the 
+    desired state orbits and they converge to these orbits in less than 1 second.
+    \item In figure 21, we can observe the phase plane of the system states as they converge to the 
     desired orbits. Since they reach these orbits, they keep moving in them.
     \item Figures 22 and 23 prove that the control input is satisfactorily bounded and the maximum power is not too high.
     \item We can conclude that all the signals in the closed loop are bounded.
     \item In figure 24, we can see that the saturation function becomes much more stable, by the time that the 
     system reaches the $| \varepsilon |$ bounds (figure 26). However, there is still chattering in the saturation function, 
     which leads the control input and thus, the system states to slight chattering too.
-    \item The converege of the system to the $s=0$ surface can be noticed in figure 25. In constrast with the 
+    \item The convergence of the system to the $s=0$ surface can be noticed in figure 25. In constrast with the 
     \textit{regulation} problem, this time we choose different values for $\lambda_1$ and $\lambda_2$, which results in two different lines for 
-    $s_1=0$ and $s_2=0$. As we can see in figure 25, each component of $s(\dot{e}, e)$ convereges to a different \textit{sliding line}. 
+    $s_1=0$ and $s_2=0$. As we can see in figure 25, each component of $s(\dot{e}, e)$ converges to a different \textit{sliding line}. 
     \item In figure 26, we can see the convergence of the system to $s=0$ with respect to time. When $s(\dot{e}, e)$ reaches close to 
     zero, the state error starts decreasing (figure 27), as the error slides through the \textit{sliding surface}.
 \end{itemize}
@@ -595,6 +595,40 @@ as $c$ increases (figures 32, 34), although $s=0$ is reached earlier (figure 33)
 According to matrix $\Lambda$, we will firstly decrease the values of the matrix and set $\lambda_1 = 0.2$ 
 and $\lambda_2 = 0.5$ with constant $c=10$. Subsequently, we will increase the values to $\lambda_1 = 10$ and $\lambda_2 = 20$. 
 We present the results below:
-\textbf{TODO}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{fig/sim2/ldecrease/qldecrease.png}
+    \caption{Rotation angles with respect to time for $\lambda_1=0.2$ and $\lambda_2=0.5$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{fig/sim2/ldecrease/eldecrease.png}
+    \caption{State error with respect to time for $\lambda_1=0.2$ and $\lambda_2=0.5$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{fig/sim2/lincrease/qlincrease.png}
+    \caption{Rotation angles with respect to time for $\lambda_1=10$ and $\lambda_2=20$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{fig/sim2/lincrease/ulincrease.png}
+    \caption{Control input with respect to time for $\lambda_1=10$ and $\lambda_2=20$}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm]{fig/sim2/lincrease/elincrease.png}
+    \caption{State error with respect to time for $\lambda_1=10$ and $\lambda_2=20$}
+\end{figure}
+
+\noindent\hspace{-2pt}
+Comparing figures 18 and 35, we can see that for decreased $\lambda_1$ and $\lambda_2$ values, the convergence to the 
+desired state curve is delayed noticeably, as expected. Reducing $\lambda$ values leads to reduced convergence speed, since 
+the system reaches $s=0$ surface. The corresponding state error reduces slower too (figures 28 and 36). On the other hand, 
+when we increase $\lambda$ values, we notice faster convergence (comparing figures 18 and 28 with 37 and 39 respectively). 
+However, the improvement does not look satisfying and at the same time, the control input (figure 38) presents a much larger maximum 
+amplitude than the case with the selected parameters (figure 23) and that should be avoided. For that reason, we avoid increasing 
+$\lambda$ values.
 
 \end{document}
+

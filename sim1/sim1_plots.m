@@ -10,8 +10,8 @@ q2 = x(:, 3);
 q1_dot = x(:, 2);
 q2_dot = x(:, 4);
  
-qd1 = pi/2;
-qd2 = -pi/3;
+qd1 = qd(1);
+qd2 = qd(2);
 
 % system states
 figure(1);
