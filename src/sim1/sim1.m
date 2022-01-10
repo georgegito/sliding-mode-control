@@ -1,5 +1,7 @@
 clear;
+close all;
 format shortG;
+addpath("./lib");
 
 %% controller parameters
 L = [5 0; 0 5];
