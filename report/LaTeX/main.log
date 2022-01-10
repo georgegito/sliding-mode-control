@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.23)  9 JAN 2022 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.23)  10 JAN 2022 19:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -494,29 +494,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 436--444
 
  []
 
-<fig/sim1/u25.png, id=143, 1370.11874pt x 587.19376pt>
+[10 <./fig/sim1/q05.png (PNG copy)> <./fig/sim1/q25.png (PNG copy)>]
+<fig/sim1/u25.png, id=149, 1370.11874pt x 587.19376pt>
 File: fig/sim1/u25.png Graphic file (type png)
 <use fig/sim1/u25.png>
-Package pdftex.def Info: fig/sim1/u25.png  used on input line 450.
+Package pdftex.def Info: fig/sim1/u25.png  used on input line 451.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10 <./fig/sim1/q05.png (PNG copy)> <./fig/sim1/q25.png (PNG copy)>]
 <fig/sim2/q.png, id=150, 1370.11874pt x 587.19376pt>
 File: fig/sim2/q.png Graphic file (type png)
 <use fig/sim2/q.png>
-Package pdftex.def Info: fig/sim2/q.png  used on input line 477.
+Package pdftex.def Info: fig/sim2/q.png  used on input line 478.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
 <fig/sim2/qlong.png, id=151, 1370.11874pt x 587.19376pt>
 File: fig/sim2/qlong.png Graphic file (type png)
 <use fig/sim2/qlong.png>
-Package pdftex.def Info: fig/sim2/qlong.png  used on input line 482.
+Package pdftex.def Info: fig/sim2/qlong.png  used on input line 483.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
 <fig/sim2/qdot.png, id=152, 1370.11874pt x 587.19376pt>
 File: fig/sim2/qdot.png Graphic file (type png)
 <use fig/sim2/qdot.png>
-Package pdftex.def Info: fig/sim2/qdot.png  used on input line 487.
+Package pdftex.def Info: fig/sim2/qdot.png  used on input line 488.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -525,134 +522,136 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <fig/sim2/qdotlong.png, id=159, 1370.11874pt x 587.19376pt>
 File: fig/sim2/qdotlong.png Graphic file (type png)
 <use fig/sim2/qdotlong.png>
-Package pdftex.def Info: fig/sim2/qdotlong.png  used on input line 492.
+Package pdftex.def Info: fig/sim2/qdotlong.png  used on input line 493.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
 <fig/sim2/phaseplanelong.png, id=160, 1370.11874pt x 587.19376pt>
 File: fig/sim2/phaseplanelong.png Graphic file (type png)
 <use fig/sim2/phaseplanelong.png>
-Package pdftex.def Info: fig/sim2/phaseplanelong.png  used on input line 497.
+Package pdftex.def Info: fig/sim2/phaseplanelong.png  used on input line 498.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
 <fig/sim2/u.png, id=161, 1370.11874pt x 587.19376pt>
 File: fig/sim2/u.png Graphic file (type png)
 <use fig/sim2/u.png>
-Package pdftex.def Info: fig/sim2/u.png  used on input line 502.
+Package pdftex.def Info: fig/sim2/u.png  used on input line 503.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
  [12 <./fig/sim2/qlong.png (PNG copy)> <./fig/sim2/qdot.png (PNG copy)> <./fig/sim2/qdotlong.png (PNG copy)>]
 <fig/sim2/ulong.png, id=169, 1370.11874pt x 587.19376pt>
 File: fig/sim2/ulong.png Graphic file (type png)
 <use fig/sim2/ulong.png>
-Package pdftex.def Info: fig/sim2/ulong.png  used on input line 507.
+Package pdftex.def Info: fig/sim2/ulong.png  used on input line 508.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
 <fig/sim2/sat.png, id=170, 1370.11874pt x 587.19376pt>
 File: fig/sim2/sat.png Graphic file (type png)
 <use fig/sim2/sat.png>
-Package pdftex.def Info: fig/sim2/sat.png  used on input line 512.
+Package pdftex.def Info: fig/sim2/sat.png  used on input line 513.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
 <fig/sim2/slidinglong.png, id=171, 1370.11874pt x 587.19376pt>
 File: fig/sim2/slidinglong.png Graphic file (type png)
 <use fig/sim2/slidinglong.png>
-Package pdftex.def Info: fig/sim2/slidinglong.png  used on input line 517.
+Package pdftex.def Info: fig/sim2/slidinglong.png  used on input line 518.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
  [13 <./fig/sim2/phaseplanelong.png (PNG copy)> <./fig/sim2/u.png (PNG copy)> <./fig/sim2/ulong.png (PNG copy)>]
 <fig/sim2/s.png, id=180, 1370.11874pt x 587.19376pt>
 File: fig/sim2/s.png Graphic file (type png)
 <use fig/sim2/s.png>
-Package pdftex.def Info: fig/sim2/s.png  used on input line 522.
+Package pdftex.def Info: fig/sim2/s.png  used on input line 523.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
 <fig/sim2/e.png, id=181, 1370.11874pt x 587.19376pt>
 File: fig/sim2/e.png Graphic file (type png)
 <use fig/sim2/e.png>
-Package pdftex.def Info: fig/sim2/e.png  used on input line 527.
+Package pdftex.def Info: fig/sim2/e.png  used on input line 528.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
 <fig/sim2/elong.png, id=182, 1370.11874pt x 587.19376pt>
 File: fig/sim2/elong.png Graphic file (type png)
 <use fig/sim2/elong.png>
-Package pdftex.def Info: fig/sim2/elong.png  used on input line 532.
+Package pdftex.def Info: fig/sim2/elong.png  used on input line 533.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
- [14 <./fig/sim2/sat.png (PNG copy)> <./fig/sim2/slidinglong.png (PNG copy)> <./fig/sim2/s.png (PNG copy)>]
+ [14 <./fig/sim2/sat.png (PNG copy)> <./fig/sim2/slidinglong.png (PNG copy)> <./fig/sim2/s.png (PNG copy)>] [15 <./fig/sim2/e.png (PNG copy)> <./fig/sim2/elong.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 553.
+(hyperref)                removing `math shift' on input line 555.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 553.
+(hyperref)                removing `math shift' on input line 555.
 
-<fig/sim2/c1/q1.png, id=190, 1370.11874pt x 587.19376pt>
+<fig/sim2/c1/q1.png, id=196, 1370.11874pt x 587.19376pt>
 File: fig/sim2/c1/q1.png Graphic file (type png)
 <use fig/sim2/c1/q1.png>
-Package pdftex.def Info: fig/sim2/c1/q1.png  used on input line 558.
+Package pdftex.def Info: fig/sim2/c1/q1.png  used on input line 560.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
-<fig/sim2/c1/s1.png, id=191, 1370.11874pt x 587.19376pt>
+<fig/sim2/c1/s1.png, id=197, 1370.11874pt x 587.19376pt>
 File: fig/sim2/c1/s1.png Graphic file (type png)
 <use fig/sim2/c1/s1.png>
-Package pdftex.def Info: fig/sim2/c1/s1.png  used on input line 563.
+Package pdftex.def Info: fig/sim2/c1/s1.png  used on input line 565.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
-[15 <./fig/sim2/e.png (PNG copy)> <./fig/sim2/elong.png (PNG copy)>]
 <fig/sim2/c1/e1.png, id=198, 1370.11874pt x 587.19376pt>
 File: fig/sim2/c1/e1.png Graphic file (type png)
 <use fig/sim2/c1/e1.png>
-Package pdftex.def Info: fig/sim2/c1/e1.png  used on input line 568.
+Package pdftex.def Info: fig/sim2/c1/e1.png  used on input line 570.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
 <fig/sim2/c25/q25.png, id=199, 1370.11874pt x 587.19376pt>
 File: fig/sim2/c25/q25.png Graphic file (type png)
 <use fig/sim2/c25/q25.png>
-Package pdftex.def Info: fig/sim2/c25/q25.png  used on input line 573.
-(pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
-<fig/sim2/c25/s25.png, id=200, 1370.11874pt x 587.19376pt>
-File: fig/sim2/c25/s25.png Graphic file (type png)
-<use fig/sim2/c25/s25.png>
-Package pdftex.def Info: fig/sim2/c25/s25.png  used on input line 578.
-(pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
- [16 <./fig/sim2/c1/q1.png (PNG copy)> <./fig/sim2/c1/s1.png (PNG copy)> <./fig/sim2/c1/e1.png (PNG copy)>]
-<fig/sim2/c25/e25.png, id=208, 1370.11874pt x 587.19376pt>
-File: fig/sim2/c25/e25.png Graphic file (type png)
-<use fig/sim2/c25/e25.png>
-Package pdftex.def Info: fig/sim2/c25/e25.png  used on input line 583.
-(pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
- [17 <./fig/sim2/c25/q25.png (PNG copy)> <./fig/sim2/c25/s25.png (PNG copy)> <./fig/sim2/c25/e25.png (PNG copy)>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 594.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Lambda' on input line 594.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 594.
-
-<fig/sim2/ldecrease/qldecrease.png, id=216, 1370.11874pt x 587.19376pt>
-File: fig/sim2/ldecrease/qldecrease.png Graphic file (type png)
-<use fig/sim2/ldecrease/qldecrease.png>
-Package pdftex.def Info: fig/sim2/ldecrease/qldecrease.png  used on input line 600.
-(pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
-<fig/sim2/ldecrease/eldecrease.png, id=217, 1370.11874pt x 587.19376pt>
-File: fig/sim2/ldecrease/eldecrease.png Graphic file (type png)
-<use fig/sim2/ldecrease/eldecrease.png>
-Package pdftex.def Info: fig/sim2/ldecrease/eldecrease.png  used on input line 605.
-(pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
-<fig/sim2/lincrease/qlincrease.png, id=218, 1370.11874pt x 587.19376pt>
-File: fig/sim2/lincrease/qlincrease.png Graphic file (type png)
-<use fig/sim2/lincrease/qlincrease.png>
-Package pdftex.def Info: fig/sim2/lincrease/qlincrease.png  used on input line 610.
-(pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
-<fig/sim2/lincrease/ulincrease.png, id=219, 1370.11874pt x 587.19376pt>
-File: fig/sim2/lincrease/ulincrease.png Graphic file (type png)
-<use fig/sim2/lincrease/ulincrease.png>
-Package pdftex.def Info: fig/sim2/lincrease/ulincrease.png  used on input line 615.
+Package pdftex.def Info: fig/sim2/c25/q25.png  used on input line 575.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18 <./fig/sim2/ldecrease/qldecrease.png (PNG copy)> <./fig/sim2/ldecrease/eldecrease.png (PNG copy)>]
-<fig/sim2/lincrease/elincrease.png, id=226, 1370.11874pt x 587.19376pt>
+ [16 <./fig/sim2/c1/q1.png (PNG copy)> <./fig/sim2/c1/s1.png (PNG copy)>]
+<fig/sim2/c25/s25.png, id=206, 1370.11874pt x 587.19376pt>
+File: fig/sim2/c25/s25.png Graphic file (type png)
+<use fig/sim2/c25/s25.png>
+Package pdftex.def Info: fig/sim2/c25/s25.png  used on input line 580.
+(pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
+<fig/sim2/c25/e25.png, id=207, 1370.11874pt x 587.19376pt>
+File: fig/sim2/c25/e25.png Graphic file (type png)
+<use fig/sim2/c25/e25.png>
+Package pdftex.def Info: fig/sim2/c25/e25.png  used on input line 585.
+(pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
+ [17 <./fig/sim2/c1/e1.png (PNG copy)> <./fig/sim2/c25/q25.png (PNG copy)> <./fig/sim2/c25/s25.png (PNG copy)>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 596.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Lambda' on input line 596.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 596.
+
+<fig/sim2/ldecrease/qldecrease.png, id=215, 1370.11874pt x 587.19376pt>
+File: fig/sim2/ldecrease/qldecrease.png Graphic file (type png)
+<use fig/sim2/ldecrease/qldecrease.png>
+Package pdftex.def Info: fig/sim2/ldecrease/qldecrease.png  used on input line 602.
+(pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
+<fig/sim2/ldecrease/eldecrease.png, id=216, 1370.11874pt x 587.19376pt>
+File: fig/sim2/ldecrease/eldecrease.png Graphic file (type png)
+<use fig/sim2/ldecrease/eldecrease.png>
+Package pdftex.def Info: fig/sim2/ldecrease/eldecrease.png  used on input line 607.
+(pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
+<fig/sim2/lincrease/qlincrease.png, id=217, 1370.11874pt x 587.19376pt>
+File: fig/sim2/lincrease/qlincrease.png Graphic file (type png)
+<use fig/sim2/lincrease/qlincrease.png>
+Package pdftex.def Info: fig/sim2/lincrease/qlincrease.png  used on input line 612.
+(pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./fig/sim2/c25/e25.png (PNG copy)> <./fig/sim2/ldecrease/qldecrease.png (PNG copy)>]
+<fig/sim2/lincrease/ulincrease.png, id=224, 1370.11874pt x 587.19376pt>
+File: fig/sim2/lincrease/ulincrease.png Graphic file (type png)
+<use fig/sim2/lincrease/ulincrease.png>
+Package pdftex.def Info: fig/sim2/lincrease/ulincrease.png  used on input line 617.
+(pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
+<fig/sim2/lincrease/elincrease.png, id=225, 1370.11874pt x 587.19376pt>
 File: fig/sim2/lincrease/elincrease.png Graphic file (type png)
 <use fig/sim2/lincrease/elincrease.png>
-Package pdftex.def Info: fig/sim2/lincrease/elincrease.png  used on input line 620.
+Package pdftex.def Info: fig/sim2/lincrease/elincrease.png  used on input line 622.
 (pdftex.def)             Requested size: 426.79134pt x 182.90625pt.
- [19 <./fig/sim2/lincrease/qlincrease.png (PNG copy)> <./fig/sim2/lincrease/ulincrease.png (PNG copy)> <./fig/sim2/lincrease/elincrease.png (PNG copy)>] [20] (main.aux)
+ [19 <./fig/sim2/ldecrease/eldecrease.png (PNG copy)> <./fig/sim2/lincrease/qlincrease.png (PNG copy)> <./fig/sim2/lincrease/ulincrease.png (PNG copy)>] [20 <./fig/sim2/lincrease/elincrease.png (PNG copy)>] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A29F18981A7B86B6A32627EB2ABD5DF9;1969.
  ) 
@@ -665,7 +664,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  70i,11n,77p,367b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/gitop/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/gitop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Users/gitop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/gitop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/gitop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/gitop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/gitop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/gitop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/gitop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/gitop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/gitop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/gitop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gitop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gitop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 1597764 bytes).
+Output written on main.pdf (20 pages, 1598019 bytes).
 PDF statistics:
  315 PDF objects out of 1000 (max. 8388607)
  85 named destinations out of 1000 (max. 500000)

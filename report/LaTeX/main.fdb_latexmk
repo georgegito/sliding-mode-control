@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1641755957 "c:/Users/gitop/repos/sliding-mode-control/report/LaTeX/main.tex" "main.pdf" "main" 1641755961
+["pdflatex"] 1641835451 "c:/Users/gitop/repos/sliding-mode-control/report/LaTeX/main.tex" "main.pdf" "main" 1641835454
   "C:/Users/gitop/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1641753741 84933 775d3cbd7593b6d2e57cdc8aab4f2992 ""
   "C:/Users/gitop/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1640296554 9769968 e85c41ade4491951eae35b795ac52931 ""
   "C:/Users/gitop/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -110,7 +110,7 @@
   "C:/Users/gitop/AppData/Local/Programs/MiKTeX/tex/latex/tools/bm.sty" 1636710260 13197 df0fe9a9695763546b59e02a008447b3 ""
   "C:/Users/gitop/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "INTERSPEECH2021.sty" 1640297705 11009 0098e0204418c9c5e21239488a9c1dc3 ""
-  "c:/Users/gitop/repos/sliding-mode-control/report/LaTeX/main.tex" 1641755956 28759 4cc6e23aebc0c3bd46178168a14da649 ""
+  "c:/Users/gitop/repos/sliding-mode-control/report/LaTeX/main.tex" 1641835446 28775 138268ef038efaf1b25ed0f24de57884 ""
   "fig/fig1.png" 1641167603 165409 37c7960fe778c3f65ca08b9d6ce540f5 ""
   "fig/sim1/e.png" 1641334001 27943 53c61d3f7154a408d70872f7697eae9a ""
   "fig/sim1/ec10.png" 1641394755 26992 d231887920a2387fa20d5663c31bb504 ""
@@ -150,9 +150,9 @@
   "fig/sim2/slidinglong.png" 1641488511 47450 f48273ce049398a4f3f5d9348f934457 ""
   "fig/sim2/u.png" 1641487584 34207 8996bd5f5f14962f6c60510e8bbf4630 ""
   "fig/sim2/ulong.png" 1641487706 33943 8a034df0543709d35fc0a911ed4e1137 ""
-  "main.aux" 1641755960 9637 dffe4d1b8a27b06d0dbe669bf3e99543 "pdflatex"
-  "main.out" 1641755960 1969 a29f18981a7b86b6a32627eb2abd5df9 "pdflatex"
-  "main.tex" 1641755956 28759 4cc6e23aebc0c3bd46178168a14da649 ""
+  "main.aux" 1641835453 9637 0cc0d5638e76cba48344af7b790eb50e "pdflatex"
+  "main.out" 1641835453 1969 a29f18981a7b86b6a32627eb2abd5df9 "pdflatex"
+  "main.tex" 1641835446 28775 138268ef038efaf1b25ed0f24de57884 ""
   (generated)
   "main.aux"
   "main.log"
